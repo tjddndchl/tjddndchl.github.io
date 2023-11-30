@@ -9,7 +9,7 @@
       content="Portfolio for world-renowned software engineer jinyoung"
     />
     <link rel="icon" type="image/png" href="imgs/favicon.png" />
-    <meta name="author" content="Gyuhawn" />
+    <meta name="author" content="Seongwoong" />
     <script
       src="https://kit.fontawesome.com/7268dad3ac.js"
       crossorigin="anonymous"
@@ -105,7 +105,7 @@
       </div>
       <div class="about__jobs">
         <div class="job">
-          <img src="imgs/jobs/gongdan.png" alt="kyungsung" class="job__logo" />
+          <img src="imgs/hanbat.jpg" alt="kyungsung" class="job__logo" />
           <div class="job__description">
             <p class="job__name">한밭대학교 전자공학과 졸업</p>
             <p class="job__period">2014년 3월 - 2023년 8월</p>
@@ -120,6 +120,57 @@
         </div>
       </div>
     </section>
+
+    <!-- About 섹션 -->
+<section id="about" class="section section__container">
+  <h1>Resume</h1>
+
+  <!-- 전공과 관련 기술 -->
+  <div class="about__majors">
+    <!-- ...이전 코드 ... -->
+
+    <!-- 추가된 이력 부분 -->
+    <div class="major">
+      <div class="major__icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <h2 class="major__title">학력</h2>
+      <div class="major__description">
+        <p>대전서일고등학교 졸업</p>
+        <p>2011년 3월 - 2014년 1월</p>
+      </div>
+      <div class="major__description">
+        <p>한밭대학교 전자공학과 졸업</p>
+        <p>2014년 3월 - 2023년 8월</p>
+        <p>
+          전자공학 전공을
+        </p>
+        <p>졸업작품: 딥러닝을활용한재활용자동분류기</p>
+      </div>
+    </div>
+    
+    <!-- 추가된 경력 부분 -->
+    <div class="major">
+      <div class="major__icon">
+        <i class="fas fa-briefcase"></i>
+      </div>
+      <h2 class="major__title">경력</h2>
+      <div class="major__description">
+        <p>게룡건설 빅데이터기반 SW개발자 과정</p>
+        <p>2023년 7월 - 2023년 12월</p>
+        <p>
+          탄소중립의 이해 및 필요성 <br>
+          자바의 기초에 대해 학습 <br>
+          기업 및 조직에 필요한 인사이트 도출 및 허용<br>
+          공공데이터를 활용한 에너지 데이터 분석 플랫폼 개발<br>
+          에코건설을 위한 에너지 분석 SW개발<br>
+          건물에너지 관리시스템 개발
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 
     <section id="skills" class="section">
@@ -190,8 +241,12 @@
               <h3 class="skillset__title">Tools</h3>
               <ul class="tools__list">
                 <li><span>Visual Studio Code</span></li>
-                <li><span>Android Development tools</span></li>
-                <li><span>Android Studio Code</span></li>
+                <li><span>eclips</span></li>
+                <li><span>Spring Tool Suite</span></li>
+                <li><span>PyCharm</span></li>
+                <li><span>SqlDeveloper</span></li>
+                <li><span>SQLGate for MySQL</span></li>
+                <li><span>SQLLite</span></li>
               </ul>
             </div>
             <div class="etc">
@@ -211,83 +266,80 @@
         <h1>My work</h1>
         <h3>
           진행한 프로젝트 : 클릭시 깃허브 페이지로 이동 <br />
-          개발기간에 따른 분류 <br />
-          small:한달이내 middle:1~2개월 big:2개월이상
+          지금까지 배운것들과 만들어본것들 <br />
+          
         </h3>
         <div class="work__categories">
           <button class="category__btn selected" data-filter="*">
             All<span class="category__count">5</span>
           </button>
-          <button class="category__btn" data-filter="small">
+          <button class="category__btn" data-filter="study">
             Small<span class="category__count">3</span>
           </button>
-          <button class="category__btn" data-filter="middle">
+          <button class="category__btn" data-filter="project">
             Middle<span class="category__count">1</span>
-          </button>
-          <button class="category__btn" data-filter="big">
-            Big<span class="category__count">1</span>
           </button>
         </div>
 
         <div class="work__projects">
           <a
-            href="https://github.com/jin0kim326/mini-clothes-shop"
+            href="https://github.com/tjddndchl/dashboard"
             class="project"
             target="blank"
-            data-type="small"
+            data-type="project"
             ><img
               class="project__img"
               src="imgs/projects/cloth-shop.png"
               alt="mini-clothes-shop"
             />
             <div class="project__description">
-              <h3>mini-clothes-shop</h3>
-              <span>자바스크립트를 이용한 필터링기능</span>
+              <h3>회원관리 게시판 만들기</h3>
+              <span>사용자 회원가입 게시판 구현</span>
             </div>
           </a>
           <a
-            href="https://github.com/jin0kim326/frontend-youtube-clone"
+            href="https://github.com/tjddndchl/quiz"
             class="project"
             target="blank"
-            data-type="small"
+            data-type="project"
             ><img
               class="project__img"
               src="imgs/projects/yt.png"
               alt="clone-kakaotalk"
             />
             <div class="project__description">
-              <h3>Youtube clone</h3>
-              <span>HTML,CSS를 이용한 프론트엔드 클론</span>
+              <h3>퀴즈사이트만들기</h3>
+              <span>파이썬 OCR 기능으로 퀴즈를생성</span>
             </div>
           </a>
           <a
-            href="https://github.com/jin0kim326/js-momentum"
+            href="https://github.com/tjddndchl/chatimage"
             class="project"
             target="blank"
-            data-type="small"
+            data-type="project"
             ><img
               class="project__img"
               src="imgs/projects/js-momentum.png"
               alt="momentum"
             />
             <div class="project__description">
-              <h3>chrome Momentum</h3>
-              <span>javascript로 크롬 모멘텀 만들기</span>
+              <h3>텍스트로 이미지 생성</h3>
+              <span>파이썬 파이프라인을 통해 모델가져와서 구현</span>
             </div>
           </a>
           <a
-            href="https://github.com/jin0kim326/bug-game"
+            href="https://github.com/tjddndchl/classification"
             class="project"
             target="blank"
-            data-type="middle"
+            data-type="project"
             ><img
               class="project__img"
               src="imgs/projects/bugGame.png"
               alt="bugGame"
             />
             <div class="project__description">
-              <h3>Bug-carrot Game</h3>
-              <span>vanila Javascript로 만든 미니게임</span>
+              <h3>재활용분류쓰레기</h3>
+              <span>yoloV3와 darknet을 활용하여 이미지학습시켜 쓰레기 자동분류</span>
             </div>
           </a>
           <a
@@ -301,10 +353,25 @@
               alt="clone-kakaotalk"
             />
             <div class="project__description">
-              <h3>YouTube clone</h3>
+              <h3>스프링 공부</h3>
               <span>javascript,Node.js를 이용한 유튜브</span>
             </div>
           </a>
+          <a
+          href="https://github.com/jin0kim326/YouTube"
+          class="project"
+          target="blank"
+          data-type="big"
+          ><img
+            class="project__img"
+            src="imgs/projects/jin-youtube.png"
+            alt="clone-kakaotalk"
+          />
+          <div class="project__description">
+            <h3>공부 요약</h3>
+            <span>요약내용 정리해놓은것들</span>
+          </div>
+        </a>
         </div>
       </div>
     </section>
@@ -317,7 +384,7 @@
         <div class="testimonials">
           <div class="testimonial">
             <img
-              src="imgs/avatar.png"
+              src="imgs/avatar-2.png"
               alt="avatar"
               class="testimonial__avatar"
             />
