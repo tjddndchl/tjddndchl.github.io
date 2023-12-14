@@ -45,13 +45,18 @@
   text-align: left;
 }
 
+.job__describe {
+  color: var(--color-light-grey);
+  
+}
+
 .job__logo {
   width: 100px;
   height: 100px;
 }
 
 .award_logo{
-  width: 150px;
+  width: 100px;
   height:150px;
 }
 
