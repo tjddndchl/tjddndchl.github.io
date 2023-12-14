@@ -46,8 +46,13 @@
 }
 
 .job__logo {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.award_logo{
+  width: 150px;
+  height:150px;
 }
 
 .job__name,
@@ -62,6 +67,11 @@
 .job__period {
   font-size: var(--font-micro);
 }
+.major {
+
+  margin-left: 30px;
+}
+
 
 @media screen and (max-width: 768px) {
   .about__majors {
@@ -71,6 +81,7 @@
   }
 
   .major {
+
     margin-bottom: 30px;
   }
 
