@@ -65,11 +65,31 @@
     <!-- About -->
     <section id="about" class="section section__container">
       <h1>About me</h1>
-      <p>
-        조금 더 나은 방향으로 나아가기 위해 소통하는 것을 좋아합니다.
-        <br />협업을 중요시 하며 '혼자' 보단 '함께'에 더 큰 의미를 두고
-        있습니다. <br />편의성과 독창성을 갖춘 웹어플리케이션을 만들고 싶습니다.
-      </p>
+
+      <div>
+        <p>
+          조금 더 나은 방향으로 나아가기 위해 소통하는 것을 좋아합니다.
+          <br />협업을 중요시 하며 '혼자' 보단 '함께'에 더 큰 의미를 두고
+          있습니다. <br />편의성과 독창성을 갖춘 웹사이트를 만들고 싶습니다.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <ul style="text-align:left;">
+              <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>010-4552-6593</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>대전광역시 서구 관저동</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>28</span></li> 
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tjddndchl134@gmail.com</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>최성웅</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
       <div class="about__majors">
         <div class="major">
           <div class="major__icon">
@@ -103,22 +123,6 @@
           </div>
         </div>
       </div>
-      <div class="about__jobs">
-        <div class="job">
-          <img src="imgs/hanbat.jpg" alt="kyungsung" class="job__logo" />
-          <div class="job__description">
-            <p class="job__name">한밭대학교 전자공학과 졸업</p>
-            <p class="job__period">2014년 3월 - 2023년 8월</p>
-          </div>
-        </div>
-        <div class="job">
-          <img src="imgs/jobs/ge.png" alt="doul" class="job__logo" />
-          <div class="job__description">
-            <p class="job__name">게룡건설 빅데이터기반 SW개발자 과정</p>
-            <p class="job__period">2023년 7월 - 2023년 12월</p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- About 섹션 -->
@@ -135,14 +139,21 @@
         <i class="fas fa-graduation-cap"></i>
       </div>
       <h2 class="major__title">학력</h2>
-      <div class="major__description">
-        <p>대전서일고등학교 졸업</p>
-        <p>2011년 3월 - 2014년 1월</p>
-      </div>
-      <div class="major__description">
-        <p>한밭대학교 전자공학과 졸업</p>
-        <p>2014년 3월 - 2023년 8월</p>
-        <p>졸업작품: 딥러닝을활용한재활용자동분류기</p>
+      <div class="about__jobs">
+        <div class="job">
+          <img src="imgs/seoil.png" alt="kyungsung" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">대전서일고등학교 졸업</p>
+            <p class="job__period">2011년 3월 - 2014년 1월</p>
+          </div>
+        </div>
+        <div class="job">
+          <img src="imgs/hanbat.jpg" alt="kyungsung" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">한밭대학교 전자공학과 졸업</p>
+            <p class="job__period">2014년 3월 - 2023년 8월</p>
+          </div>
+        </div>
       </div>
     </div>
     
@@ -152,9 +163,14 @@
         <i class="fas fa-briefcase"></i>
       </div>
       <h2 class="major__title">교육사항</h2>
+      <div class="job">
+        <img src="imgs/jobs/ge.png" alt="doul" class="job__logo" />
+        <div class="job__description">
+          <p class="job__name">게룡건설 빅데이터기반 SW개발자 과정</p>
+          <p class="job__period">2023년 7월 - 2023년 12월</p>
+        </div>
+      </div>
       <div class="major__description">
-        <p>게룡건설 빅데이터기반 SW개발자 과정</p>
-        <p>2023년 7월 - 2023년 12월</p>
         <p>
           탄소중립의 이해 및 필요성 <br>
           자바의 기초에 대해 학습 <br>
@@ -173,7 +189,7 @@
     <section id="skills" class="section">
       <div class="section__container">
         <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
+        <h2>현재 내가 생각하는 나의 능력</h2>
         <p></p>
         <div class="skillset">
           <div class="skillset__left">
@@ -316,7 +332,7 @@
             data-type="project"
             ><img
               class="project__img"
-              src=""
+              src="imgs/chat.png"
               alt="textImg"
             />
             <div class="project__description">
@@ -339,6 +355,21 @@
               <span>yoloV3와 darknet을 활용하여 이미지학습시켜 쓰레기 자동분류</span>
             </div>
           </a>
+          <a
+          href="https://github.com/tjddndchl/carbon"
+          class="project"
+          target="blank"
+          data-type="project"
+          ><img
+            class="project__img"
+            src="imgs/projects/carbon.png"
+            alt="classification"
+          />
+          <div class="project__description">
+            <h3>탄소중립프로젝트</h3>
+            <span>탄소중립계산 및 시각화 및 보고서</span>
+          </div>
+        </a>
           <a
           href="https://github.com/tjddndchl/summary"
           class="project"
